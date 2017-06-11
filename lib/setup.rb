@@ -67,22 +67,3 @@ def populate_recommendations
                            fourth: similar_subtopic_uuids[3]
   end
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
