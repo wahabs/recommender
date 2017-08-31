@@ -1,6 +1,6 @@
 # Recommender
 
-Given a set of resources `Subtopics` and a table of `Listens` mapping users to the subtopics they consumed, Recommender can take an input subtopic and output recommendations for other subtopics relevant to the user.
+Given a set of resources `Subtopics` and a table of `Listens` mapping users to the subtopics they consumed, Recommender can take an input subtopic and output recommendations (based on [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) weighting) for other subtopics relevant to the user.
 
 Database configuration is in the config folder. To test locally, ensure there's a local Postgres server running with a database called "development," and the `$PG_USER` and `$PG_PASS` variables are defined in the environment.
 
